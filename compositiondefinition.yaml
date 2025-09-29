@@ -1,0 +1,8 @@
+apiVersion: core.krateo.io/v1alpha1
+kind: CompositionDefinition
+metadata:
+  name: nginx-redis-server
+spec:
+  chart:
+    url: oci://ghcr.io/krateoplatformops-workshop/nginx-redis/nginx-redis-server
+    version: "0.1.0"
